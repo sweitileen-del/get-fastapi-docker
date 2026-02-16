@@ -32,5 +32,5 @@ jobs:
 
       - name: Push Docker image
         run: |
-          docker tag getapp YOUR_DOCKERHUB_USERNAME/getapp:latest
-          docker push YOUR_DOCKERHUB_USERNAME/getapp:latest
+          docker tag getapp leeen12/getapp:latest
+          docker push leeen12/getapp:latest
